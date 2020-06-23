@@ -14,7 +14,7 @@ export default class ExState extends Component {
         })
     }
 
-    
+
     render() {
         return (
             <div>
@@ -29,7 +29,7 @@ export default class ExState extends Component {
                     </div>
                     <div className="card text-white bg-default mt-4">
                         <div className="card-body text-left">
-                            <h4 className="card-title text-dark">Score (0 <i className="fa fa-basketball-ball"></i>)</h4>
+                            <h4 className="card-title text-dark">Score ({this.state.score} <i className="fa fa-basketball-ball"></i>)</h4>
                             <button className="btn btn-default" style={{ color: 'red', border: '1px solid red' }} onClick={() => {
                                 this.score()
                             }}>Dunk <i className="fa fa-basketball-ball"></i></button>

@@ -5,6 +5,8 @@ import DataBinding from './components/DataBinding/DataBinding';
 import EventBinding from './components/DataBinding/EventBinding';
 import State from './components/State/State';
 import ExState from './components/State/ExState';
+import ExState2 from './components/State/ExState2';
+import RenderWithMap from './components/RenderWithMap/RenderWithMap';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       {/* <DataBinding /> */}
       {/* <EventBinding /> */}
       {/* <State /> */}
-      <ExState />
+      {/* <ExState /> */}
+      {/* <ExState2 /> */}
+      <RenderWithMap />
     </div>
   );
 }
