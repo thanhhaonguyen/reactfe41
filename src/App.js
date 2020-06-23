@@ -4,6 +4,7 @@ import BaiTapDanLayout from './components/BaiTapDanLayout/BaiTapDanLayout';
 import DataBinding from './components/DataBinding/DataBinding';
 import EventBinding from './components/DataBinding/EventBinding';
 import State from './components/State/State';
+import ExState from './components/State/ExState';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <BaiTapDanLayout /> */}
       {/* <DataBinding /> */}
       {/* <EventBinding /> */}
-      <State />
+      {/* <State /> */}
+      <ExState />
     </div>
   );
 }
